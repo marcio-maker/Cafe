@@ -1,0 +1,78 @@
+cafe.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Café</title>
+    <link rel="stylesheet" href="cafe.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Café Delícia</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Bem-vindo à Café Delícia</h2>
+            <p>Descubra o sabor único dos nossos cafés especiais.</p>
+            <a href="#menu" class="btn">Ver Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Nosso Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="https://cdn57209327.blazingcdn.net/images/originals/12-20-2022_0235pmd59f7998e73709cdca617891000361252.jpg" alt="Café Expresso">
+                <h3>Café Expresso</h3>
+                <p>R$ 5,00</p>
+                <button class="btn-add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://down-ph.img.susercontent.com/file/20a4e00bc03a2359157c7c4b5b20acd3" alt="Café Latte">
+                <h3>Café Latte</h3>
+                <p>R$ 7,00</p>
+                <button class="btn-add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://th.bing.com/th/id/OIP.3iGI9isyU5cRIigud-lmcwHaHa?w=600&h=600&rs=1&pid=ImgDetMain" alt="Café Mocha">
+                <h3>Café Mocha</h3>
+                <p>R$ 8,00</p>
+                <button class="btn-add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos apaixonados por café e dedicados a trazer os melhores grãos e blends para você. Nossa missão é proporcionar uma experiência única a cada xícara.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu Email" required>
+            <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Café Delícia. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="cafe.js"></script>
+</body>
+</html>
